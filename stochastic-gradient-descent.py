@@ -12,7 +12,7 @@ def determine(iterations, lineColor):
 # Loading boston housing data
 boston = data.load_boston()
 
-# The 6th column is the avarage n of room
+# The 6th column is the average n of room
 # This is our features
 X = boston.data[:, 5:6]
 
@@ -31,7 +31,7 @@ determine(10000, 'black')
 plt.scatter(X, y, marker='.', alpha=0.5, color='blue')
 plt.xlim(0, 10)
 plt.ylim(0, 60)
-plt.xlabel('Avarage n of rooms')
+plt.xlabel('Average n of rooms')
 plt.ylabel('Price ($1000)')
 
 plt.show()
