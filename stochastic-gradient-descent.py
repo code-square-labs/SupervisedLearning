@@ -13,19 +13,19 @@ def determine(iterations, lineColor):
 boston = data.load_boston()
 
 # The 6th column is the average n of room
-# This is our features
+# Those are our features
 X = boston.data[:, 5:6]
 
 # Price of properties
-# This is our labels
+# Those are our labels
 y = boston.target
 
-# the value of n_iter_no_change is default 5
-# score: 0.3457659979699824
+# The value of n_iter_no_change is default 5
+# Score: 0.3457659979699824
 determine(5, 'red')
 
-# lets try with more iterations and see compare the result
-# score: 0.47496216327736646
+# Lets try with more iterations and compare the result
+# Score: 0.47496216327736646
 determine(10000, 'black')
 
 plt.scatter(X, y, marker='.', alpha=0.5, color='blue')
