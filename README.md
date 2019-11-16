@@ -20,3 +20,12 @@ Out put of [boston-housing.py](https://github.com/mertaksoy/BostonHousing/blob/m
 
 Manually Loss-Function (a = 15.; b = -70.)
 ![Linear Regression](https://raw.githubusercontent.com/mertaksoy/BostonHousing/master/boston-housing.png "Linear Regression")
+
+### Ordinary Least Squares
+Lets use OLS for estimating the unknown parameters `a` and `b`
+
+Out put of [ordinary-least-square.py](https://github.com/mertaksoy/BostonHousing/blob/master/ordinary-least-square.py):
+
+Estimated Loss Function
+![Estimated Loss Function](https://raw.githubusercontent.com/mertaksoy/BostonHousing/master/ordinary-least-square.png "Estimated Loss Function")
+
