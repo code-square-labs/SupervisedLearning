@@ -29,3 +29,11 @@ Out put of [ordinary-least-square.py](https://github.com/mertaksoy/BostonHousing
 Estimated Loss Function
 ![Estimated Loss Function](https://raw.githubusercontent.com/mertaksoy/BostonHousing/master/ordinary-least-square.png "Estimated Loss Function")
 
+### Stochastic Gradient Descent
+Another algorithm for estimating the unknown parameters `a` and `b`
+
+Out put of [stochastic-gradient-descent.py](https://github.com/mertaksoy/BostonHousing/blob/master/stochastic-gradient-descent.py):
+
+Estimated Loss Function via Stochastic Gradient Descent
+![Estimated Loss Function](https://raw.githubusercontent.com/mertaksoy/BostonHousing/master/stochastic-gradient-descent.png "Estimated Loss Function")
+
